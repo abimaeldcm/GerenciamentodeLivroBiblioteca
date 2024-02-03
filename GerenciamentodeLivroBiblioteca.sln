@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GerenciamentodeLivroBiblioteca", "GerenciamentodeLivroBiblioteca\GerenciamentodeLivroBiblioteca.csproj", "{AEE28CC7-A183-4244-AF93-5406C663F64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentodeLivroBiblioteca.Application", "GerenciamentodeLivroBiblioteca.Application\GerenciamentodeLivroBiblioteca.Application.csproj", "{986CD6EC-5B83-4F15-B830-F1C7F7B222EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentodeLivroBiblioteca.Infra.Data", "GerenciamentodeLivroBiblioteca.Data\GerenciamentodeLivroBiblioteca.Infra.Data.csproj", "{37EC224E-83F6-450C-A983-D52C36613512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentodeLivroBiblioteca.Domain", "GerenciamentodeLivroBiblioteca.Domain\GerenciamentodeLivroBiblioteca.Domain.csproj", "{A8735936-7CD1-4CAF-B3BD-C050754C7AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentodeLivroBiblioteca.Infra.IoC", "GerenciamentodeLivroBiblioteca.Infra.IoC\GerenciamentodeLivroBiblioteca.Infra.IoC.csproj", "{6483C2FC-E897-48A9-A073-7C4D40889DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentodeLivroBiblioteca.Tests", "GerenciamentodeLivroBiblioteca.Tests\GerenciamentodeLivroBiblioteca.Tests.csproj", "{0ABF3D88-C24A-43FB-96AD-FAEC49D95AF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEE28CC7-A183-4244-AF93-5406C663F64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE28CC7-A183-4244-AF93-5406C663F64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE28CC7-A183-4244-AF93-5406C663F64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE28CC7-A183-4244-AF93-5406C663F64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986CD6EC-5B83-4F15-B830-F1C7F7B222EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986CD6EC-5B83-4F15-B830-F1C7F7B222EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986CD6EC-5B83-4F15-B830-F1C7F7B222EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986CD6EC-5B83-4F15-B830-F1C7F7B222EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EC224E-83F6-450C-A983-D52C36613512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EC224E-83F6-450C-A983-D52C36613512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EC224E-83F6-450C-A983-D52C36613512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EC224E-83F6-450C-A983-D52C36613512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8735936-7CD1-4CAF-B3BD-C050754C7AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8735936-7CD1-4CAF-B3BD-C050754C7AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8735936-7CD1-4CAF-B3BD-C050754C7AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8735936-7CD1-4CAF-B3BD-C050754C7AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6483C2FC-E897-48A9-A073-7C4D40889DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6483C2FC-E897-48A9-A073-7C4D40889DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6483C2FC-E897-48A9-A073-7C4D40889DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6483C2FC-E897-48A9-A073-7C4D40889DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ABF3D88-C24A-43FB-96AD-FAEC49D95AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ABF3D88-C24A-43FB-96AD-FAEC49D95AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ABF3D88-C24A-43FB-96AD-FAEC49D95AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ABF3D88-C24A-43FB-96AD-FAEC49D95AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7179A9D-C2BF-415C-A2D8-84CC257782AE}
+	EndGlobalSection
+EndGlobal
